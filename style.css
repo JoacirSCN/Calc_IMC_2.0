@@ -162,6 +162,7 @@ button:hover {
   visibility: visible;
 }
 
+p
 .alert-error {
   position: absolute;
   background-color: var(--bg-error);
@@ -179,6 +180,22 @@ button:hover {
 
   animation: topdown 1800ms 350ms backwards;
 }
+
+.paragrafo-resultado, .bad {
+  border-radius: 4px;
+  margin-top: 10px;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.paragrafo-resultado {
+  background: rgb(109, 255, 182);
+}
+
+.bad {
+  background: rgb(255, 150, 150);
+}
+
 
 @keyframes topdown {
   0% {
